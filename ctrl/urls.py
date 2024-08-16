@@ -4,7 +4,7 @@ from rest_framework.urlpatterns import format_suffix_patterns
 from ctrl import views
 
 urlpatterns = [
-    path('serial/', views.SerialView.as_view()),
+    path('serial/', views.switcherView),
 ]
 
 urlpatterns = format_suffix_patterns(urlpatterns)
